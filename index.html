@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+
+        }
+
+        nav {
+            position: sticky;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 55px;
+            background-color: rgb(23, 13, 32);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+
+
+            list-style: none;
+            margin: 0 20px;
+            float: right;
+            border: 2px solid white;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            background-color: rgb(99, 44, 136);
+        }
+
+        a {
+            color: white;
+
+
+        }
+
+        a:hover {
+
+            color: rgb(226, 19, 19);
+
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .first>div {
+            width: 30%;
+            margin: 20px 0;
+        }
+
+        .lefts {
+            margin: 70px 0;
+            font-size: 3rem;
+        }
+
+        .rights img {
+
+            width: 350px;
+            margin: 20px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 125vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+            margin-top: 5px;
+
+
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(79, 79, 172);
+            height: 0.2px;
+            margin: 40px 80px;
+        }
+
+        #sanket {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .imagetop {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title ul {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .vertical-title h1 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: rgb(29, 10, 48);
+
+        }
+
+        .flex {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer-first h1 {
+            display: flex;
+
+            font-size: 1.6rem;
+        }
+
+        #footer ul {
+            list-style: none;
+            font-weight: 100;
+            font-size: larger;
+            margin: 30px 30px;
+            line-height: 60px;
+
+        }
+
+
+
+        #footer .footer-rights {
+            text-align: center;
+            color: gray;
+            font-size: 1.2rem;
+            padding: 2px;
+        }
+
+        .lefts .btn {
+            padding: 12px;
+            background-color: purple;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+
+
+        #thsex h1 {
+            margin-top: 40px;
+            color: aqua;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                Sanket Kamble Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <a href="/">
+                        <li>Home</li>
+                    </a>
+                    <a href="/">
+                        <li>About</li>
+                    </a>
+                    <a href="#sanket">
+                        <li>Experience</li>
+                    </a>
+                    <a href="#thsex">
+                        <li>Projects</li>
+                    </a>
+                    <a href="#footer">
+                        <li>Contact Me</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="lefts">
+                My name is <span class="purple">Sanket</span>
+                <div>I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="button">
+                   <a href="Sanket Kamble 9172354707.pdf" download> <button class="btn">Download Resume</button></a>
+                   <a href="https://github.com/sankya4323"> <button class="btn"> Vist Github</button></a>
+                </div>
+            </div>
+            <div class="rights">
+                <img src="bg.png" alt="bg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span id="sanket">What I done so far</span>
+            <h1>Past Experience</h1>
+
+            <div class="box">
+                <div class="vertical"><img class="imagetop" src="dev.png" alt="">
+                    <div class=vertical-title>
+                        <h1 style="color: aqua;">Intern (April 2023 - June 2023)</h1>( PHN Technology PVT LTD Pune.)
+                        <ul style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            <li>This program was designed to provide valuable hands-on experience and practical
+                                knowledge in Programming Languages.</li>
+                            <li>During the internship, I actively contributed to Programming Languages and
+                                exhibited professionalism, adaptability, and a willingness to learn.</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div id="thsex">
+                            <h1>Projects</h1>
+
+                            <h2
+                                style="margin-top: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.3rem;">
+                                Student Attendance System for DYP (2023 - 2024)</h2>
+                            <ul
+                                style="margin-top: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.2rem; ">
+                                <li> The Student Attendance System for DYP is a web based project developed using
+                                    HTML, CSS, PHP.
+                                    This system aims to streamline the process of tracking and manging student
+                                    attendace.</li>
+                                <li>
+                                    Also this project is hosted for DYP college Salokhenagar kolhapur.
+                                </li>
+                            </ul>
+                            <h1
+                                style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                                Health care management App (2022 - 2023)</h1>
+                            <ul style="font-size: 1.2rem; margin-top: 5px;">
+                                <li>
+                                    The purpose of the project entitled as "Health care Management App" isto gather
+                                    data of patientsrequirements.</li>
+                            </ul>
+                            <h1
+                                style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                                Canteen Billing System (2021 - 2022)</h1>
+                            <ul
+                                style="margin-top: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.2rem;">
+                                <li>
+                                    This is C++ CBS Project.</li>
+                                <li>This is user friendly interface for customer and admin also.</li>
+                                <li>Overcome The Old School Billing Method On Paper With The New Computerized Billing
+                                    Method.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="flex">
+            <div class="footer-first">
+                <h1>Sanket Arjun Kamble</h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="https://github.com/sankya4323">
+                        <li>Github</li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sanket-kamble-170a72244/"><li>Linkdin</li></a>
+
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <a href="tel:9172354707">
+                        <li>Contact</li>
+                    </a>
+                    <a href="https://wa.me/9172354707">
+                        <li>Whatsapp</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <a href="https://www.instagram.com/sanket_kamble2112">
+                        <li>Instgram</li>
+                    </a>
+                    <a href="https://m.facebook.com/sanket.kamble.94009841/">
+                        <li>facebook</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            || Copyright &#169 All Rights Reserved ||
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-end Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
